@@ -12,7 +12,7 @@ function quickSort(list, leftPointer, rightPointer) {
 }
 
 function partition(list, leftPointer, rightPointer) {
-  let pivotKey = list[0];
+  let pivotKey = list[leftPointer];
   console.log('list', list, pivotKey);
   while (leftPointer < rightPointer) {
     console.log('pointer', leftPointer, rightPointer);
@@ -37,5 +37,6 @@ function swap(list, leftPointer, rightPointer, tag) {
   console.log('swap', list, tag);
 }
 
-const arr = [2,3,6,9,7];
-quickSort(arr, 1, arr.length - 1);
+const arr = [50,10,90,30,70,40,80,60,20];
+// const arr = [2,3,7,9,5];
+quickSort(arr, 0, arr.length-1);
