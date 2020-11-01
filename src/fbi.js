@@ -6,8 +6,6 @@ function fbi(i) {
   return fbi(i - 1) + fbi(i - 2);
 }
 
-(function() {
-  for (let i = 0; i < 40; i++) {
-    console.log(fbi(i));
-  }
-})();
+for (let i = 0; i < 40; i++) {
+  console.log(fbi(i));
+}

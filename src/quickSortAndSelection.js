@@ -5,10 +5,10 @@ function quickSort(list, leftPointer, rightPointer) {
     // 选取基准值，并找到它的位置
     pivot = partition(list, leftPointer, rightPointer);
     console.log('pivot', pivot);
+    // 递归左右子集
     quickSort(list, leftPointer, pivot - 1);
     quickSort(list, pivot + 1, rightPointer);
   }
-  // console.log('list', list);
 }
 
 function partition(list, leftPointer, rightPointer) {
