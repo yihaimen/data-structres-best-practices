@@ -1,6 +1,8 @@
 # data-structres-best-practices
 To learn and practise data structres
 
+## Note: 本库只是平时学习算法的摘抄，并非个人原创，最终解释权归原创所有
+
 ## 0、时间复杂度和空间复杂度
 
 ## 1、常用数据结构
