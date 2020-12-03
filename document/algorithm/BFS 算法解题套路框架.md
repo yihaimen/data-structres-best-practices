@@ -36,3 +36,5 @@ int BFS(Node start, Node target) {
     }
 }
 ```
+
+DFS 是线，BFS 是面；DFS 是单打独斗，BFS 是集体行动。这个应该比较容易理解吧
